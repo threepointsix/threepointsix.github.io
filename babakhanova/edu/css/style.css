@@ -1,0 +1,143 @@
+body {
+  background: url("../../img/bg.jpg") 100% 100%; }
+
+header {
+  width: 100%;
+  border-bottom: 4px solid #003e8e; }
+  header .container {
+    display: flex;
+    justify-content: space-between; }
+    header .container .header-left {
+      align-items: center;
+      display: flex;
+      height: 75px; }
+      header .container .header-left p {
+        font-size: 15pt;
+        font-family: "OpenSans-SemiBold";
+        margin-left: 15px;
+        color: #003e8e;
+        margin-top: 10px; }
+      header .container .header-left img {
+        width: 50px;
+        height: 50px; }
+    header .container .header-right {
+      display: flex;
+      align-items: center; }
+      header .container .header-right a button {
+        font-family: "OpenSans-Bold";
+        color: #003e8e;
+        cursor: pointer;
+        width: 125px;
+        height: 30px;
+        background-color: transparent;
+        border: 2px solid #003e8e;
+        border-radius: 5px;
+        outline: none; }
+      header .container .header-right a:hover button {
+        background-color: rgba(0, 0, 0, 0.075); }
+
+.main {
+  margin-top: 70px;
+  line-height: 55px;
+  background-color: white;
+  border: 2px solid #003e8e;
+  text-align: center; }
+  .main a {
+    color: #020061; }
+  .main .zebo {
+    padding-top: 25px;
+    font-family: "Ubuntu-Regular";
+    color: #020061;
+    font-size: 50pt; }
+  .main .professor {
+    font-family: "Ubuntu-Light";
+    color: #020075;
+    font-size: 22pt; }
+  .main .navigation {
+    font-family: "Ubuntu-Light";
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 10px; }
+    .main .navigation a {
+      color: #020075;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px; }
+  .main .education {
+    font-family: "OpenSans-Regular";
+    margin: 50px auto;
+    width: 80%;
+    text-align: justify; }
+    .main .education a {
+      color: #003cd9; }
+    .main .education a:hover {
+      border-bottom: 1.5px solid #003cd9; }
+    .main .education p {
+      width: 100%;
+      line-height: 25px;
+      text-align: justify-all; }
+      .main .education p strong {
+        font-size: 15pt; }
+
+.to-top {
+  font-family: "OpenSans-Bold";
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  background: transparent;
+  border: 2px solid #003e8e;
+  color: #003e8e;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  text-align: center;
+  margin: auto auto 20px;
+  line-height: 22px; }
+
+.to-top:hover {
+  background-color: rgba(0, 0, 0, 0.075); }
+
+@media screen and (max-width: 1200px) {
+  .main .navigation {
+    display: none; } }
+@media screen and (max-width: 575px) {
+  .main .zebo {
+    font-size: 25pt; }
+  .main .professor {
+    font-size: 16pt;
+    line-height: 20px; }
+
+  header .header-left p {
+    display: none; } }
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../../fonts/OpenSans-Regular.ttf");
+  font-weight: 400;
+  font-style: normal; }
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../../fonts/OpenSans-SemiBold.ttf");
+  font-weight: 600;
+  font-style: normal; }
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../../fonts/OpenSans-Bold.ttf");
+  font-weight: 800;
+  font-style: normal; }
+@font-face {
+  font-family: "Ubuntu-Light";
+  src: url("../../fonts/Ubuntu-Light.ttf");
+  font-weight: 100;
+  font-style: normal; }
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("../../fonts/Ubuntu-Regular.ttf");
+  font-weight: 300;
+  font-style: normal; }
+
+/*# sourceMappingURL=style.css.map */

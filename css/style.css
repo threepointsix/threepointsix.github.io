@@ -1,0 +1,240 @@
+.background {
+    background: url("../img/bg2.jpg") rgba(0, 0, 0, 0.5) fixed;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+header .social {
+    margin-top: 20px;
+    text-align: left;
+    user-select: none;
+}
+
+header .social .telegram {
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+header .social .telegram:hover {
+    transition-duration: 0.5s;
+    background-color: white;
+}
+
+header .social #tg-copied {
+    color: #eeeeee;
+    position: absolute;
+    margin-top: 15px;
+}
+
+header .social .facebook {
+    cursor: pointer;
+    margin-left: 25px;
+    border-radius: 40px;
+}
+
+header .social .facebook:hover {
+    transition-duration: 0.5s;
+    background-color: #eeeeee;
+}
+
+a {
+    outline: none;
+}
+
+.intro {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.intro .name {
+    margin-left: 20px;
+    line-height: 25px;
+    font-family: Bubblegum;
+    color: #eeeeee;
+    font-size: 25pt;
+}
+
+.intro .MyPhoto {
+    width: 124px;
+    height: 124px;
+}
+
+.bio {
+    border: 3px solid #eeeeee;
+    border-radius: 15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 125px;
+}
+
+#html {
+    background-image: url("../img/bioBg.jpg");
+}
+
+#csharp {
+    background-image: url("../img/ownCS.jpg");
+    background-size: cover;
+}
+
+.bio .coding {
+    font-size: 5vw;
+    font-family: MS-Bold;
+    color: #eeeeee;
+    text-align: center;
+    padding: 0;
+}
+
+.bio ul {
+    font-family: MS-Regular;
+    color: #eeeeee;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    font-size: 2vw;
+}
+
+#projectsText {
+    font-size: 3vw;
+    text-align: center;
+    color: #eeeeee;
+    font-family: MS-Bold;
+    margin-top: 35px;
+}
+
+.myProjects {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto 0 0;
+    padding-bottom: 20px;
+}
+
+.myProjects p {
+    text-align: center;
+    font-size: 1vw;
+    color: #eeeeee;
+    font-family: MS-Regular;
+    border: 3px solid #eeeeee;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 0;
+    padding: 0;
+}
+
+.myProjects img {
+    padding: 0;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 25vw;
+    height: 14.0625vw;
+}
+
+.myProjects div:hover .visit {
+    display: block;
+}
+
+.myProjects .buttonImg {
+    position: relative;
+}
+
+.myProjects .visit {
+    cursor: pointer;
+    position: absolute;
+    display: none;
+    outline: 0;
+    border: 0;
+    width: 8vw;
+    height: 5vh;
+    font-family: MS-Regular;
+    font-size: 1vw;
+    text-align: center;
+    line-height: 1.6vw;
+    background: transparent;
+    color: #eeeeee;
+    border: 3px solid #eeeeee;
+    border-radius: 12px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.myProjects div:hover .projectImg {
+    filter: brightness(15%);
+}
+
+
+/* .myProjects img:hover+.visit {
+    display: inline-block;
+} */
+
+@media screen and (max-width: 768px) {
+    .bio .coding {
+        font-size: 8vw;
+    }
+    .bio ul {
+        font-size: 4vw;
+    }
+    header .social {
+        margin: 0 auto;
+    }
+    header .intro {
+        margin: 20px auto;
+    }
+}
+
+@font-face {
+    font-family: "Concert";
+    src: url("../fonts/ConcertOne-Regular.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MS-Light";
+    src: url("../fonts/MerriweatherSans-Light.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MS-Regular";
+    src: url("../fonts/MerriweatherSans-Regular.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MS-Bold";
+    src: url("../fonts/MerriweatherSans-Bold.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "MS-ExtraBold";
+    src: url("../fonts/MerriweatherSans-ExtraBold.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "ScopeOne";
+    src: url("../fonts/ScopeOne-Regular.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bubblegum";
+    src: url("../fonts/BubblegumSans-Regular.ttf");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Bubblegum";
+    src: url("../fonts/BubblegumSans-Regular.ttf");
+    font-style: normal;
+}
