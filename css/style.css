@@ -1,5 +1,13 @@
+html {
+    height: 100vh;
+}
+
+body {
+    min-height: 100vh;
+}
+
 .background {
-    height: 100%;
+    min-height: 100vh;
     background: url("../img/bg.jpg") rgba(0, 0, 0, 0.5) fixed;
 }
 
@@ -191,12 +199,12 @@ a {
     }
 }
 
-@media screen and (max-width: 458px) {
+/* @media screen and (max-width: 458px) {
     html,
     body {
         height: 100%;
     }
-}
+} */
 
 @font-face {
     font-family: "Concert";
